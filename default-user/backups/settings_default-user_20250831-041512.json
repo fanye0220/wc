@@ -151,12 +151,11 @@
         "AlertRegex_冬木 凛.png": "true",
         "AlertWI_严粟.png": "true",
         "AlertRegex_严粟.png": "true",
-        "AlertWI_永恒少年.png": "true",
-        "AlertRegex_江时温.png": "true"
+        "AlertWI_永恒少年.png": "true"
     },
     "currentVersion": "1.13.1",
     "username": "律",
-    "active_character": "江时温.png",
+    "active_character": "永恒少年.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "gui",
@@ -2274,8 +2273,7 @@
             "魏衡宇.png",
             "陆洲.png",
             "冬木 凛.png",
-            "严粟.png",
-            "江时温.png"
+            "严粟.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -4005,12 +4003,7 @@
         "Sirenus.png": [],
         "何尽岑.png": [],
         "苏玉折.png": [],
-        "温叙白.png": [],
-        "利恩.png": [],
-        "沉睡的猫与作恶的狗.png": [],
-        "李余念.png": [],
-        "江砚.png": [],
-        "江时温.png": []
+        "温叙白.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
