@@ -142,12 +142,12 @@
         "AlertRegex_魏衡宇.png": "true"
     },
     "currentVersion": "1.13.1",
-    "username": "律",
+    "username": "常九",
     "active_character": "筱原冬弥.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "gui",
-    "user_avatar": "1748691468583-.png",
+    "user_avatar": "1748165328926-.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -547,7 +547,7 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "183身高 男的 蓝色头发 穿的很时髦",
+        "persona_description": "男的。身高186。",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
