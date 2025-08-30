@@ -3997,11 +3997,7 @@
         ],
         "冬木 凛.png": [],
         "陆明珩.png": [],
-        "永恒少年.png": [],
-        "Keith.png": [],
-        "我的心也好痛.png": [],
-        "Sirenus.png": [],
-        "何尽岑.png": []
+        "永恒少年.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -5311,7 +5307,7 @@
         "max_context_unlocked": true,
         "api_url_scale": "",
         "show_external_models": true,
-        "proxy_password": "",
+        "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
