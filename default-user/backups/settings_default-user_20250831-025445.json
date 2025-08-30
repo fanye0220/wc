@@ -154,7 +154,7 @@
     },
     "currentVersion": "1.13.1",
     "username": "律",
-    "active_character": "伊川市群聊模拟器.png",
+    "active_character": "筱原冬弥.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "gui",
@@ -3994,8 +3994,7 @@
         "陆洲.png": [
             "86c7d971-fb9f-4946-a5f3-30507e04c5c2"
         ],
-        "冬木 凛.png": [],
-        "陆明珩.png": []
+        "冬木 凛.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
