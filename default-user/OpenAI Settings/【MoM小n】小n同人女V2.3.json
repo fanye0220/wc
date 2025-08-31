@@ -1,4 +1,32 @@
 {
+    "chat_completion_source": "custom",
+    "openai_model": "gpt-4-turbo",
+    "claude_model": "claude-3-5-sonnet-20240620",
+    "windowai_model": "",
+    "openrouter_model": "OR_Website",
+    "openrouter_use_fallback": false,
+    "openrouter_group_models": false,
+    "openrouter_sort_models": "alphabetically",
+    "openrouter_providers": [],
+    "openrouter_allow_fallbacks": true,
+    "openrouter_middleout": "on",
+    "ai21_model": "jamba-1.5-large",
+    "mistralai_model": "mistral-large-latest",
+    "cohere_model": "command-r-plus",
+    "perplexity_model": "llama-3.1-70b-instruct",
+    "groq_model": "llama-3.1-70b-versatile",
+    "zerooneai_model": "yi-large",
+    "xai_model": "grok-3-beta",
+    "pollinations_model": "openai",
+    "aimlapi_model": "gpt-4o-mini-2024-07-18",
+    "custom_model": "gemini-2.5-pro",
+    "custom_url": "https://bkpfftvhyuev.us-east-1.clawcloudrun.com/v1",
+    "custom_include_body": "",
+    "custom_exclude_body": "",
+    "custom_include_headers": "",
+    "custom_prompt_post_processing": "strict",
+    "google_model": "kingfall-ab-test",
+    "vertexai_model": "gemini-2.0-flash-001",
     "temperature": 1.45,
     "frequency_penalty": 0,
     "presence_penalty": 0,
@@ -18,6 +46,8 @@
     "new_example_chat_prompt": "[Example Chat]",
     "continue_nudge_prompt": "[Continue your last message without repeating its original content.]",
     "bias_preset_selected": "Default (none)",
+    "reverse_proxy": "",
+    "proxy_password": "",
     "max_context_unlocked": true,
     "wi_format": "{0}",
     "scenario_format": "{{scenario}}",
@@ -2264,7 +2294,7 @@
                 },
                 {
                     "identifier": "10d3cdba-fb8a-4c1e-a59d-9f8af0f9b27f",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "9de50b2b-c4e2-45ee-825c-a5c03553df0e",
@@ -2280,7 +2310,7 @@
                 },
                 {
                     "identifier": "4f56b337-7186-467a-870f-b39cb9b7bf03",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "b138fc98-b539-4be3-8a41-1809e07283b0",
@@ -2308,11 +2338,11 @@
                 },
                 {
                     "identifier": "fa156ee3-73f0-440d-8265-f99336889692",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "a042f6b9-a2ef-4fe6-a5f4-8a6e9ada85a8",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "4145d343-2730-45af-ba14-4ca5786b5ba1",
@@ -2324,11 +2354,11 @@
                 },
                 {
                     "identifier": "808dba4b-a167-4e1d-a2b7-5e4da0aee7b6",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "b8ec7599-5f18-442a-a2eb-c1b7006b2535",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "f07fc19a-6755-4f3b-aaa0-41d75a647ffd",
@@ -2420,11 +2450,11 @@
                 },
                 {
                     "identifier": "26e6b34c-ab8b-4dbb-9ab4-6d4c964f64d5",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "dfa1a7d8-5e51-49be-8d88-38c1c3fa179e",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "d18d21f5-b353-46f8-9d1a-f9d3188dda4d",
@@ -2464,7 +2494,7 @@
                 },
                 {
                     "identifier": "59a054d3-7276-47a5-b0cc-30e6d5183e90",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "29150ea9-4b9d-4600-afc4-a98e3b33c2e7",
@@ -2472,7 +2502,7 @@
                 },
                 {
                     "identifier": "7b8c5602-ec9a-4469-9fbc-9df4eb0668f8",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "d69c6ff3-19d3-451d-8ca2-d8cc89091022",
@@ -2564,7 +2594,7 @@
                 },
                 {
                     "identifier": "db97f98b-cd9c-4c62-808b-b00220ba67cb",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "19d3be75-efdc-44e3-85bd-eabd1122693b",
@@ -2600,7 +2630,7 @@
                 },
                 {
                     "identifier": "c2c79a03-4b3f-4f2b-bf01-3609cbf05ac2",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "f1914509-5baf-4e1e-8841-cd25978b804b",
@@ -2732,7 +2762,7 @@
                 },
                 {
                     "identifier": "6aafc93b-042d-48cd-bb2d-bccbebb8dbbf",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "071a310c-13fa-4b74-b111-714dffd7e947",
@@ -2797,14 +2827,21 @@
             ]
         }
     ],
+    "api_url_scale": "",
+    "show_external_models": false,
     "assistant_prefill": "",
     "assistant_impersonation": "",
     "claude_use_sysprompt": false,
     "use_makersuite_sysprompt": false,
+    "vertexai_auth_mode": "express",
+    "vertexai_region": "us-central1",
+    "vertexai_express_project_id": "",
+    "use_alt_scale": false,
     "squash_system_messages": false,
     "image_inlining": false,
     "inline_image_quality": "auto",
     "video_inlining": false,
+    "bypass_status_check": false,
     "continue_prefill": true,
     "continue_postfix": " ",
     "function_calling": false,

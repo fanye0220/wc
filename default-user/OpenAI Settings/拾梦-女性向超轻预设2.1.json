@@ -1,4 +1,32 @@
 {
+    "chat_completion_source": "custom",
+    "openai_model": "gpt-4-turbo",
+    "claude_model": "claude-3-5-sonnet-20240620",
+    "windowai_model": "",
+    "openrouter_model": "OR_Website",
+    "openrouter_use_fallback": false,
+    "openrouter_group_models": false,
+    "openrouter_sort_models": "alphabetically",
+    "openrouter_providers": [],
+    "openrouter_allow_fallbacks": true,
+    "openrouter_middleout": "on",
+    "ai21_model": "jamba-1.5-large",
+    "mistralai_model": "mistral-large-latest",
+    "cohere_model": "command-r-plus",
+    "perplexity_model": "llama-3.1-70b-instruct",
+    "groq_model": "llama-3.1-70b-versatile",
+    "zerooneai_model": "yi-large",
+    "xai_model": "grok-3-beta",
+    "pollinations_model": "openai",
+    "aimlapi_model": "gpt-4o-mini-2024-07-18",
+    "custom_model": "gemini-2.5-pro",
+    "custom_url": "https://bkpfftvhyuev.us-east-1.clawcloudrun.com/v1",
+    "custom_include_body": "",
+    "custom_exclude_body": "",
+    "custom_include_headers": "",
+    "custom_prompt_post_processing": "strict",
+    "google_model": "kingfall-ab-test",
+    "vertexai_model": "gemini-2.0-flash-001",
     "temperature": 1.2,
     "frequency_penalty": 0.3,
     "presence_penalty": 0.2,
@@ -18,6 +46,8 @@
     "new_example_chat_prompt": "[Start a new Chat]",
     "continue_nudge_prompt": "[Continue the following message. Do not include ANY parts of the original message. Use capitalization and punctuation as if your reply is a part of the original message: {{lastChatMessage}}]",
     "bias_preset_selected": "Default (none)",
+    "reverse_proxy": "",
+    "proxy_password": "",
     "max_context_unlocked": true,
     "wi_format": "[Details of the fictional world the RP is set in:\n{0}]",
     "scenario_format": "[Circumstances and context of the dialogue: {{scenario}}]",
@@ -340,6 +370,19 @@
             "injection_order": 100,
             "injection_trigger": [],
             "forbid_overrides": false
+        },
+        {
+            "identifier": "beaa8dec-9ad6-4895-9593-022a1ea1afe7",
+            "system_prompt": false,
+            "enabled": false,
+            "marker": false,
+            "name": "第三人称",
+            "role": "system",
+            "content": "# 视角指令：\n- 你必须全程**以第三人称视角**进行创作和叙述。\n- {{user}}在所有叙述和对话中**统一称为“他”或“她”**（根据设定性别）。\n- {{char}}同样用“他”或“她”称呼，不允许自称“我”或称呼{{user}}为“你”。\n- 上帝视角",
+            "injection_position": 0,
+            "injection_depth": 4,
+            "injection_order": 100,
+            "forbid_overrides": false
         }
     ],
     "prompt_order": [
@@ -489,6 +532,10 @@
                 },
                 {
                     "identifier": "6bd48052-3934-41e6-b120-7fceb8986c11",
+                    "enabled": false
+                },
+                {
+                    "identifier": "beaa8dec-9ad6-4895-9593-022a1ea1afe7",
                     "enabled": true
                 },
                 {
@@ -518,14 +565,21 @@
             ]
         }
     ],
+    "api_url_scale": "",
+    "show_external_models": false,
     "assistant_prefill": "",
     "assistant_impersonation": "",
     "claude_use_sysprompt": false,
     "use_makersuite_sysprompt": false,
+    "vertexai_auth_mode": "express",
+    "vertexai_region": "us-central1",
+    "vertexai_express_project_id": "",
+    "use_alt_scale": false,
     "squash_system_messages": false,
     "image_inlining": true,
     "inline_image_quality": "low",
     "video_inlining": false,
+    "bypass_status_check": false,
     "continue_prefill": false,
     "continue_postfix": " ",
     "function_calling": false,
@@ -534,6 +588,5 @@
     "enable_web_search": false,
     "request_images": false,
     "seed": -1,
-    "n": 1,
-    "extensions": {}
+    "n": 1
 }
