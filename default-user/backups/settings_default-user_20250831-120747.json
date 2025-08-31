@@ -139,11 +139,7 @@
         "AlertWI_司洛.png": "true",
         "AlertRegex_司洛.png": "true",
         "AlertWI_魏衡宇.png": "true",
-        "AlertRegex_魏衡宇.png": "true",
-        "AlertWI_守寡模拟器.png": "true",
-        "AlertRegex_守寡模拟器.png": "true",
-        "AlertWI_沉睡的猫与作恶的狗.png": "true",
-        "AlertRegex_沉睡的猫与作恶的狗.png": "true"
+        "AlertRegex_魏衡宇.png": "true"
     },
     "currentVersion": "1.13.1",
     "username": "律",
@@ -1169,9 +1165,7 @@
             "伊川市群聊模拟器.png",
             "誉衡之.png",
             "司洛.png",
-            "魏衡宇.png",
-            "守寡模拟器.png",
-            "沉睡的猫与作恶的狗.png"
+            "魏衡宇.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1446,9 +1440,7 @@
                         }
                     }
                 ],
-                "characters_with_scripts": [
-                    "沉睡的猫与作恶的狗.png"
-                ]
+                "characters_with_scripts": []
             },
             "audio": {
                 "audio_enabled": true,
