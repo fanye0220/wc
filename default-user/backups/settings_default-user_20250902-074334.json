@@ -371,7 +371,6 @@
         "confirm_message_delete": true,
         "sort_field": "create_date",
         "sort_order": "desc",
-        "sort_rule": null,
         "font_scale": 0.93,
         "blur_strength": 13,
         "shadow_width": 2,
@@ -7849,8 +7848,8 @@
         "bind_preset_to_connection": true
     },
     "background": {
-        "name": "Camera_1040g3k031fhid02s04404168pru0dfslmh8dcpg.jpg",
-        "url": "url(\"backgrounds/Camera_1040g3k031fhid02s04404168pru0dfslmh8dcpg.jpg\")",
+        "name": "Camera_XHS_17567700006121040g2sg30vtc6c3c665g5pdt.jpg",
+        "url": "url(\"backgrounds/Camera_XHS_17567700006121040g2sg30vtc6c3c665g5pdt.jpg\")",
         "fitting": "classic",
         "animation": false
     },
