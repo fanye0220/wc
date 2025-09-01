@@ -544,14 +544,14 @@
                 "connections": []
             },
             "1748691468583-.png": {
-                "description": "183身高 男的",
+                "description": "183身高 男的 ",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
                 "lorebook": ""
             }
         },
-        "persona_description": "183身高 男的",
+        "persona_description": "183身高 男的 ",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -695,7 +695,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "19eb973e-fea5-46df-bbee-37dff1d8e7fe",
+            "selectedProfile": "7f526c67-0442-43b2-a2f4-95dac3ae8c9d",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -713,23 +713,6 @@
                     "prompt-post-processing": "strict",
                     "secret-id": "c0c7cde1-b742-48f6-a7bd-e0f3c58f86ff",
                     "name": "北极星"
-                },
-                {
-                    "id": "19eb973e-fea5-46df-bbee-37dff1d8e7fe",
-                    "mode": "cc",
-                    "exclude": [
-                        "preset"
-                    ],
-                    "api": "custom",
-                    "api-url": "https://ar26710.online/v1",
-                    "model": "[c]claude-3-7-sonnet",
-                    "proxy": "None",
-                    "stop-strings": "[]",
-                    "start-reply-with": "",
-                    "reasoning-template": "DeepSeek",
-                    "prompt-post-processing": "strict",
-                    "secret-id": "365e9dc4-9484-47cd-87f9-4c8d7cba56d1",
-                    "name": "穹"
                 },
                 {
                     "id": "7f526c67-0442-43b2-a2f4-95dac3ae8c9d",
@@ -3412,11 +3395,10 @@
                 "marker": false,
                 "name": "💡写作字数控制🔏",
                 "role": "system",
-                "content": "- 补全文稿需要Molly和我共同创作，交替续写。你每次输出1500-2000汉字后应该停笔，将叙事权自然移交{{user}}，并等待我的输入。",
+                "content": "- 补全文稿需要Molly和我共同创作，交替续写。你每次输出2000-4000汉字后应该停笔，将叙事权自然移交{{user}}，并等待我的输入。",
                 "injection_position": 0,
                 "injection_depth": 4,
-                "forbid_overrides": false,
-                "injection_order": 100
+                "forbid_overrides": false
             },
             {
                 "identifier": "63c2421a-bf39-46ea-9a6f-2c0ed2a2cb2e",
@@ -4274,8 +4256,8 @@
         "aimlapi_model": "gpt-4o-mini-2024-07-18",
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",
-        "custom_model": "[c]claude-sonnet-4",
-        "custom_url": "https://ar26710.online/v1",
+        "custom_model": "claude-sonnet-4-20250514-thinking",
+        "custom_url": "https://st.dslzl.top/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
@@ -4292,7 +4274,7 @@
         "max_context_unlocked": true,
         "api_url_scale": "",
         "show_external_models": true,
-        "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
+        "proxy_password": "",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
