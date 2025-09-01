@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "LNavOpened": "true",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
@@ -695,7 +695,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "cd9588e9-f9ea-470a-bef1-99de04081912",
+            "selectedProfile": "747d4b30-ff21-42ae-8817-8af61fcdc87d",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -7633,8 +7633,8 @@
         "aimlapi_model": "gpt-4o-mini-2024-07-18",
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",
-        "custom_model": "gemini-2.5-pro[假流]",
-        "custom_url": "https://gemini.beijixingxing.cn/v1",
+        "custom_model": "gemini-2.5-pro",
+        "custom_url": "https://spw.cool/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
