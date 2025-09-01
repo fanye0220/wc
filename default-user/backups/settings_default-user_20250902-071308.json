@@ -144,14 +144,11 @@
         "AlertRegex_守寡模拟器.png": "true",
         "AlertWI_沉睡的猫与作恶的狗.png": "true",
         "AlertRegex_沉睡的猫与作恶的狗.png": "true",
-        "AlertWI_诶？我怎么成魅魔了？1.png": "true",
-        "AlertRegex_诶？我怎么成魅魔了？1.png": "true",
-        "AlertWI_蓝川 鹿之助.png": "true",
-        "AlertRegex_蓝川 鹿之助.png": "true"
+        "AlertWI_魅魔.png": "true"
     },
     "currentVersion": "1.13.1",
     "username": "律",
-    "active_character": "蓝川 鹿之助.png",
+    "active_character": "魅魔.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "gui",
@@ -369,8 +366,8 @@
         "play_sound_unfocused": true,
         "auto_save_msg_edits": true,
         "confirm_message_delete": true,
-        "sort_field": "create_date",
-        "sort_order": "desc",
+        "sort_field": "name",
+        "sort_order": "asc",
         "font_scale": 0.93,
         "blur_strength": 13,
         "shadow_width": 2,
@@ -1225,9 +1222,7 @@
             "司洛.png",
             "魏衡宇.png",
             "守寡模拟器.png",
-            "沉睡的猫与作恶的狗.png",
-            "诶？我怎么成魅魔了？1.png",
-            "蓝川 鹿之助.png"
+            "沉睡的猫与作恶的狗.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -2840,6 +2835,7 @@
         "Michel.png": [],
         "方铭.png": [],
         "谢辰俞.png": [],
+        "维度之眼.png": [],
         "魏琰.png": [],
         "沈之渡.png": [],
         "温恕.png": [],
@@ -2989,6 +2985,7 @@
         "魏衡宇.png": [],
         "亓川.png": [],
         "谢许苗.png": [],
+        "沈祀.png": [],
         "守寡模拟器.png": [],
         "邬舟落.png": [],
         "恋综万人嫌.png": [],
@@ -3001,6 +2998,7 @@
         "苏玉折.png": [],
         "何尽岑.png": [],
         "Sirenus.png": [],
+        "我的心也好痛.png": [],
         "Keith.png": [],
         "永恒少年.png": [],
         "陆明珩.png": [],
@@ -3098,6 +3096,7 @@
         "孟屿桥.png": [],
         "福瑞兽世.png": [],
         "养小孩真难.png": [],
+        "魅魔.png": [],
         "Nyros.png": [],
         "吴序.png": [],
         "燕晦明.png": [],
@@ -3132,25 +3131,7 @@
             "51c48e4e-36ce-4013-901f-53752a89d6df"
         ],
         "克里斯.png": [],
-        "于墨.png": [],
-        "林知叶.png": [],
-        "诶？我怎么成魅魔了？1.png": [],
-        "安逸.png": [],
-        "Lorenzo.png": [],
-        "白塔.png": [],
-        "陆明珩1.png": [],
-        "沈越.png": [],
-        "苹果.png": [],
-        "许长乐.png": [],
-        "陶星炽.png": [],
-        "奥德赛.png": [],
-        "卧槽有狗啊.png": [],
-        "祁骁川.png": [],
-        "王妃遗事录.png": [],
-        "江洄·容克.png": [],
-        "霍利斯1.png": [],
-        "佑安.png": [],
-        "伊莱恩·罗兹.png": []
+        "于墨.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -7848,8 +7829,8 @@
         "bind_preset_to_connection": true
     },
     "background": {
-        "name": "1000017739.jpg",
-        "url": "url(\"backgrounds/1000017739.jpg\")",
+        "name": "1000017740.jpg",
+        "url": "url(\"backgrounds/1000017740.jpg\")",
         "fitting": "classic",
         "animation": false
     },
