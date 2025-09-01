@@ -19,8 +19,8 @@
     "xai_model": "grok-3-beta",
     "pollinations_model": "openai",
     "aimlapi_model": "gpt-4o-mini-2024-07-18",
-    "custom_model": "gemini-2.5-pro[假流]",
-    "custom_url": "https://gemini.beijixingxing.com/v1",
+    "custom_model": "gemini-2.5-pro",
+    "custom_url": "https://spw.cool/v1",
     "custom_include_body": "",
     "custom_exclude_body": "",
     "custom_include_headers": "",
@@ -4266,11 +4266,11 @@
                 },
                 {
                     "identifier": "cdcb43b1-5ac9-44e1-bca0-fdf1c8f83399",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "17d82429-c579-44f7-a498-374d139c80d0",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "26a8164e-e835-4504-8766-3cf911ab9169",
