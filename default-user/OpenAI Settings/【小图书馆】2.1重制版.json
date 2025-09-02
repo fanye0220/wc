@@ -386,7 +386,7 @@
             "marker": false,
             "name": "字数控制",
             "role": "system",
-            "content": "<WordCountControl>\n- Bruce每轮输出正文（含思维链/草稿与正文内容）**总字数不得少于1000字**。\n- 如当前内容未满规定字数，Bruce须自动补充对白、细节、心理、环境、推进剧情等方式直至达标。\n- 禁止用冗余注释、重复说明、AI声明等水分充数，**必须用真实剧情、对白、行为、心理、描写补足字数**。\n- 每轮输出前自查总字数，不足时自动重写/增补，直至达到标准。\n</WordCountControl>",
+            "content": "<WordCountControl>\n- Bruce每轮输出正文（含思维链/草稿与正文内容）**总字数不得少于1500字**。\n- 如当前内容未满规定字数，Bruce须自动补充对白、细节、心理、环境、推进剧情等方式直至达标。\n- 禁止用冗余注释、重复说明、AI声明等水分充数，**必须用真实剧情、对白、行为、心理、描写补足字数**。\n- 每轮输出前自查总字数，不足时自动重写/增补，直至达到标准。\n</WordCountControl>",
             "injection_position": 0,
             "injection_depth": 4,
             "injection_order": 100,
