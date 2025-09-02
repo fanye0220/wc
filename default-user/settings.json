@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "NavOpened": "false",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
@@ -3216,7 +3216,7 @@
     },
     "oai_settings": {
         "preset_settings_openai": "【小猫之神】3.0-Preview",
-        "temp_openai": 1.3,
+        "temp_openai": 1.15,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
         "top_p_openai": 0.99,
@@ -3867,7 +3867,7 @@
                     },
                     {
                         "identifier": "9f6fb39c-5373-47a0-a3d9-dc6fcbbe83de",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "d6fa9105-b1ec-4079-a3be-a608388a4812",
