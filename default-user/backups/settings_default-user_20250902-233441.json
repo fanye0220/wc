@@ -630,7 +630,7 @@
         "autoConnect": false,
         "notifyUpdates": true,
         "disabledExtensions": [
-            "third-party/mobile"
+            "third-party/ST-Prompt-Template"
         ],
         "expressionOverrides": [],
         "memory": {
