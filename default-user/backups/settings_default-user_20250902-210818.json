@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "LNavOpened": "false",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
@@ -84,7 +84,7 @@
         "AlertWI_向未.png": "true",
         "mediaWarningShown:伊凡德.png": "true",
         "mediaWarningShown:伊凡德1.png": "true",
-        "extension_update_nag": "Sun Aug 31 2025",
+        "extension_update_nag": "Tue Sep 02 2025",
         "Proxy_SkipConfirm_5834304746370893": "true",
         "mediaWarningShown:《变形记》.png": "true",
         "AlertWI_《变形记》.png": "true",
@@ -143,7 +143,12 @@
         "AlertWI_守寡模拟器.png": "true",
         "AlertRegex_守寡模拟器.png": "true",
         "AlertWI_沉睡的猫与作恶的狗.png": "true",
-        "AlertRegex_沉睡的猫与作恶的狗.png": "true"
+        "AlertRegex_沉睡的猫与作恶的狗.png": "true",
+        "AlertWI_诶？我怎么成魅魔了？1.png": "true",
+        "AlertRegex_诶？我怎么成魅魔了？1.png": "true",
+        "AlertWI_蓝川 鹿之助.png": "true",
+        "AlertRegex_蓝川 鹿之助.png": "true",
+        "LNavLockOn": "false"
     },
     "currentVersion": "1.13.1",
     "username": "律",
@@ -544,14 +549,14 @@
                 "connections": []
             },
             "1748691468583-.png": {
-                "description": "183身高 男的 ",
+                "description": "183身高 男的",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
                 "lorebook": ""
             }
         },
-        "persona_description": "183身高 男的 ",
+        "persona_description": "183身高 男的",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -695,7 +700,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "7f526c67-0442-43b2-a2f4-95dac3ae8c9d",
+            "selectedProfile": "747d4b30-ff21-42ae-8817-8af61fcdc87d",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -713,6 +718,23 @@
                     "prompt-post-processing": "strict",
                     "secret-id": "c0c7cde1-b742-48f6-a7bd-e0f3c58f86ff",
                     "name": "北极星"
+                },
+                {
+                    "id": "19eb973e-fea5-46df-bbee-37dff1d8e7fe",
+                    "mode": "cc",
+                    "exclude": [
+                        "preset"
+                    ],
+                    "api": "custom",
+                    "api-url": "https://ar26710.online/v1",
+                    "model": "[c]claude-sonnet-4",
+                    "proxy": "None",
+                    "stop-strings": "[]",
+                    "start-reply-with": "",
+                    "reasoning-template": "DeepSeek",
+                    "prompt-post-processing": "strict",
+                    "secret-id": "cbf6fb0e-64de-4084-8095-b6808cad630e",
+                    "name": "穹"
                 },
                 {
                     "id": "7f526c67-0442-43b2-a2f4-95dac3ae8c9d",
@@ -1205,7 +1227,9 @@
             "司洛.png",
             "魏衡宇.png",
             "守寡模拟器.png",
-            "沉睡的猫与作恶的狗.png"
+            "沉睡的猫与作恶的狗.png",
+            "诶？我怎么成魅魔了？1.png",
+            "蓝川 鹿之助.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1522,7 +1546,7 @@
                     "gemini-2.5-pro-preview-06-05"
                 ]
             },
-            "openai_model": "[AWS]claude_3_7_sonnet",
+            "openai_model": "[云愿]claude-3-7-sonnet",
             "google_model": "kingfall-ab-test"
         },
         "codex": true,
@@ -2531,6 +2555,28 @@
             "color": "",
             "color2": "",
             "create_date": 1754274005324
+        },
+        {
+            "id": "51c48e4e-36ce-4013-901f-53752a89d6df",
+            "name": "小狗",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": 99,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1756767787250
+        },
+        {
+            "id": "7aaf8b37-1ada-4892-a7dc-7f357d5245c7",
+            "name": "恋爱，都市，女性向",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": 100,
+            "is_hidden_on_character_card": false,
+            "color": "",
+            "color2": "",
+            "create_date": 1756767787268
         }
     ],
     "tag_map": {
@@ -2796,7 +2842,6 @@
         "Michel.png": [],
         "方铭.png": [],
         "谢辰俞.png": [],
-        "维度之眼.png": [],
         "魏琰.png": [],
         "沈之渡.png": [],
         "温恕.png": [],
@@ -2946,13 +2991,11 @@
         "魏衡宇.png": [],
         "亓川.png": [],
         "谢许苗.png": [],
-        "沈祀.png": [],
         "守寡模拟器.png": [],
         "邬舟落.png": [],
         "恋综万人嫌.png": [],
         "长谷川零.png": [],
         "江时温.png": [],
-        "江砚.png": [],
         "李余念.png": [],
         "沉睡的猫与作恶的狗.png": [],
         "利恩.png": [],
@@ -2960,11 +3003,156 @@
         "苏玉折.png": [],
         "何尽岑.png": [],
         "Sirenus.png": [],
-        "我的心也好痛.png": [],
         "Keith.png": [],
         "永恒少年.png": [],
         "陆明珩.png": [],
-        "叶景琛.png": []
+        "叶景琛.png": [],
+        "临涣.png": [],
+        "李承远.png": [],
+        "陸永龍.png": [],
+        "闻最.png": [],
+        "谢凛.png": [],
+        "蓝川 鹿之助.png": [],
+        "许凌.png": [],
+        "乔洵玉.png": [],
+        "李顺水.png": [],
+        "凌曜.png": [
+            "7aaf8b37-1ada-4892-a7dc-7f357d5245c7"
+        ],
+        "林栖.png": [],
+        "迟誉.png": [],
+        "候麟疏.png": [],
+        "裴温予.png": [],
+        "单川澄.png": [],
+        "宁随霖.png": [],
+        "墨恒司.png": [],
+        "杨溯.png": [],
+        "辻迁粼喑.png": [],
+        "桃花不能这么阴.png": [],
+        "顾昀疏.png": [],
+        "陈邵.png": [],
+        "阮至清.png": [],
+        "林宥谦.png": [],
+        "地狱空荡荡.png": [],
+        "江温言.png": [],
+        "言蹊.png": [],
+        "萧航宇.png": [],
+        "诶？我怎么成魅魔了？.png": [],
+        "哥儿模拟器.png": [],
+        "林跃.png": [],
+        "鹿鸣.png": [],
+        "白璟.png": [],
+        "江昃.png": [],
+        "江言.png": [],
+        "顾屿.png": [],
+        "李渡.png": [],
+        "乙游魔法世界.png": [],
+        "谢不言.png": [],
+        "江漉.png": [],
+        "江念一.png": [],
+        "沈归尘.png": [],
+        "曲逆蝶.png": [],
+        "和顶级天才的沟通障碍，要怎么解决？答：绑了，关之！.png": [],
+        "季燃.png": [],
+        "Xerxes.png": [],
+        "周让.png": [],
+        "李尘一.png": [],
+        "山夜明.png": [],
+        "孽爱.png": [],
+        "久野城.png": [],
+        "云靳白.png": [],
+        "谢知许.png": [],
+        "庄建河.png": [],
+        "踏舟赴.png": [],
+        "陈浩南.png": [],
+        "奥利弗.png": [],
+        "卫沧回.png": [],
+        "温辞玉.png": [],
+        "李明辉（Leon）.png": [],
+        "卧河山.png": [],
+        "莱利斯.png": [],
+        "奇美.png": [],
+        "来玩惊险刺激的许愿机游戏吧.png": [],
+        "澜风.png": [],
+        "沈鸢.png": [],
+        "埃利奥·温斯顿.png": [],
+        "巳亚.png": [],
+        "蒋禹.png": [],
+        "楼无咎.png": [],
+        "白君泽.png": [],
+        "俞乐乐.png": [],
+        "陈岁安.png": [],
+        "晴与雨.png": [],
+        "盛涧.png": [],
+        "端木川.png": [],
+        "简亦寻.png": [],
+        "郑煜何.png": [],
+        "乔乐生.png": [],
+        "莱恩·阿斯特.png": [],
+        "岑霁野.png": [],
+        "江既白.png": [],
+        "周谒雪.png": [],
+        "梅知许.png": [],
+        "改造系统.png": [],
+        "季闻朝.png": [],
+        "零夜.png": [],
+        "江宁.png": [],
+        "孟屿桥.png": [],
+        "福瑞兽世.png": [],
+        "养小孩真难.png": [],
+        "Nyros.png": [],
+        "吴序.png": [],
+        "燕晦明.png": [],
+        "专属私人娃娃.png": [],
+        "妈妈在哪儿.png": [],
+        "裕润.png": [],
+        "🔞恋综-《爱情攻略》💓.png": [],
+        "薄斯言.png": [],
+        "君枕弦.png": [],
+        "我的心也好痛1.png": [],
+        "谢知晏.png": [],
+        "晏河清.png": [],
+        "利恩1.png": [],
+        "霍城.png": [],
+        "谢以念.png": [],
+        "江砚1.png": [],
+        "沈肆.png": [],
+        "张书砚.png": [],
+        "色色！！.png": [],
+        "夏屿.png": [],
+        "沈祀1.png": [],
+        "喻安.png": [],
+        "苏青生.png": [],
+        "何尽岑1.png": [],
+        "月弥.png": [],
+        "猎魔人.png": [],
+        "越水晴仁.png": [],
+        "萧珩.png": [],
+        "楼怀君.png": [],
+        "谢坠.png": [],
+        "何执俞.png": [
+            "51c48e4e-36ce-4013-901f-53752a89d6df"
+        ],
+        "克里斯.png": [],
+        "于墨.png": [],
+        "林知叶.png": [],
+        "诶？我怎么成魅魔了？1.png": [],
+        "安逸.png": [],
+        "Lorenzo.png": [],
+        "白塔.png": [],
+        "陆明珩1.png": [],
+        "沈越.png": [],
+        "苹果.png": [],
+        "许长乐.png": [],
+        "陶星炽.png": [],
+        "奥德赛.png": [],
+        "卧槽有狗啊.png": [],
+        "祁骁川.png": [],
+        "王妃遗事录.png": [],
+        "江洄·容克.png": [],
+        "霍利斯1.png": [],
+        "佑安.png": [],
+        "伊莱恩·罗兹.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -3037,7 +3225,7 @@
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
         "stream_openai": true,
-        "openai_max_context": 2000000,
+        "openai_max_context": 640000,
         "openai_max_tokens": 65535,
         "wrap_in_quotes": false,
         "prompts": [
@@ -3048,7 +3236,7 @@
                 "marker": false,
                 "name": "字数要求",
                 "role": "system",
-                "content": "<字数要求>\n-正文（也就是被<content>包裹的内容）必须使用`简体中文`，需要达到 400 - 600 字（不包括摘要内容）\n</字数要求>",
+                "content": "<字数要求>\n-正文（也就是被<content>包裹的内容）必须使用`简体中文`，需要达到 600 - 800 字（不包括摘要内容）\n</字数要求>",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "injection_order": 100,
@@ -5436,7 +5624,7 @@
                     },
                     {
                         "identifier": "26e6b34c-ab8b-4dbb-9ab4-6d4c964f64d5",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "dfa1a7d8-5e51-49be-8d88-38c1c3fa179e",
@@ -5444,7 +5632,7 @@
                     },
                     {
                         "identifier": "d18d21f5-b353-46f8-9d1a-f9d3188dda4d",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "4ced2778-8450-41ad-9bd5-406f9c0af0b4",
@@ -5564,7 +5752,7 @@
                     },
                     {
                         "identifier": "19e7ccc1-5a7d-482c-962e-cccf0abbdcac",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "bc8bd6ec-32fd-4bc8-8b26-8a2ba30d0c3b",
@@ -5620,7 +5808,7 @@
                     },
                     {
                         "identifier": "f1914509-5baf-4e1e-8841-cd25978b804b",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "d8301de4-eccd-453c-b32e-a4a595fce145",
@@ -5864,8 +6052,8 @@
         "aimlapi_model": "gpt-4o-mini-2024-07-18",
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",
-        "custom_model": "claude-sonnet-4-20250514",
-        "custom_url": "https://st.dslzl.top/v1",
+        "custom_model": "gemini-2.5-pro",
+        "custom_url": "https://spw.cool/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
@@ -5910,8 +6098,8 @@
         "bind_preset_to_connection": true
     },
     "background": {
-        "name": "1000017739.jpg",
-        "url": "url(\"backgrounds/1000017739.jpg\")",
+        "name": "007bNdZagy1hus2sabdyyj37y84c6hdx.jpg",
+        "url": "url(\"backgrounds/007bNdZagy1hus2sabdyyj37y84c6hdx.jpg\")",
         "fitting": "classic",
         "animation": false
     },
