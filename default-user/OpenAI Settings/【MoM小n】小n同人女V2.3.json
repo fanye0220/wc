@@ -47,7 +47,7 @@
     "continue_nudge_prompt": "[Continue your last message without repeating its original content.]",
     "bias_preset_selected": "Default (none)",
     "reverse_proxy": "",
-    "proxy_password": "",
+    "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
     "max_context_unlocked": true,
     "wi_format": "{0}",
     "scenario_format": "{{scenario}}",
@@ -62,7 +62,7 @@
             "marker": false,
             "name": "字数要求",
             "role": "system",
-            "content": "<字数要求>\n-正文（也就是被<content>包裹的内容）必须使用`简体中文`，需要达到 400 - 600 字（不包括摘要内容）\n</字数要求>",
+            "content": "<字数要求>\n-正文（也就是被<content>包裹的内容）必须使用`简体中文`，需要达到 600 - 800 字（不包括摘要内容）\n</字数要求>",
             "injection_position": 0,
             "injection_depth": 4,
             "injection_order": 100,
@@ -2450,7 +2450,7 @@
                 },
                 {
                     "identifier": "26e6b34c-ab8b-4dbb-9ab4-6d4c964f64d5",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "dfa1a7d8-5e51-49be-8d88-38c1c3fa179e",
@@ -2458,7 +2458,7 @@
                 },
                 {
                     "identifier": "d18d21f5-b353-46f8-9d1a-f9d3188dda4d",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "4ced2778-8450-41ad-9bd5-406f9c0af0b4",
@@ -2578,7 +2578,7 @@
                 },
                 {
                     "identifier": "19e7ccc1-5a7d-482c-962e-cccf0abbdcac",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "bc8bd6ec-32fd-4bc8-8b26-8a2ba30d0c3b",
@@ -2634,7 +2634,7 @@
                 },
                 {
                     "identifier": "f1914509-5baf-4e1e-8841-cd25978b804b",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "d8301de4-eccd-453c-b32e-a4a595fce145",
