@@ -1,5 +1,35 @@
 {
-    "temperature": 1.39,
+    "chat_completion_source": "custom",
+    "openai_model": "",
+    "claude_model": "claude-3-opus-20240229",
+    "windowai_model": "",
+    "openrouter_model": "deepseek/deepseek-r1-0528",
+    "openrouter_use_fallback": false,
+    "openrouter_group_models": false,
+    "openrouter_sort_models": "alphabetically",
+    "openrouter_providers": [
+        "Chutes"
+    ],
+    "openrouter_allow_fallbacks": false,
+    "openrouter_middleout": "on",
+    "ai21_model": "jamba-1.5-large",
+    "mistralai_model": "mistral-medium",
+    "cohere_model": "command-r-plus",
+    "perplexity_model": "llama-3-70b-instruct",
+    "groq_model": "llama3-70b-8192",
+    "zerooneai_model": "yi-large",
+    "xai_model": "grok-3-beta",
+    "pollinations_model": "openai",
+    "aimlapi_model": "gpt-4o-mini-2024-07-18",
+    "custom_model": "gemini-2.5-pro",
+    "custom_url": "https://spw.cool/v1",
+    "custom_include_body": "",
+    "custom_exclude_body": "",
+    "custom_include_headers": "",
+    "custom_prompt_post_processing": "strict",
+    "google_model": "gemini-2.5-pro",
+    "vertexai_model": "gemini-2.0-flash-001",
+    "temperature": 1.3,
     "frequency_penalty": 0,
     "presence_penalty": 0,
     "top_p": 0.99,
@@ -18,6 +48,8 @@
     "new_example_chat_prompt": "",
     "continue_nudge_prompt": "",
     "bias_preset_selected": "Default (none)",
+    "reverse_proxy": "",
+    "proxy_password": "",
     "max_context_unlocked": true,
     "wi_format": "{0}",
     "scenario_format": "{{scenario}}",
@@ -583,7 +615,7 @@
             "marker": false,
             "name": "人称控制",
             "role": "system",
-            "content": "{{addvar::requirements::还有人称！对我要用第二人称，对其他人都用第三人称w；}}{{trim}}",
+            "content": "{{addvar::requirements::#全程**务必**严格采用第三人称创作，以第三人称来称呼{{user}}。\n；}}{{trim}}",
             "injection_position": 0,
             "injection_depth": 4,
             "injection_order": 100,
@@ -639,7 +671,7 @@
                 },
                 {
                     "identifier": "ed3b6119-cb78-47b4-beab-6d109beb9e38",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "ee33ae12-feea-42fd-98fe-97c995903f11",
@@ -683,11 +715,11 @@
                 },
                 {
                     "identifier": "b9c29eab-3a14-4d7f-a8b0-fdd268c2d0ab",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "630b20d3-2d85-4b20-85ce-cc5e483e14b8",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "ef48b167-dac9-4015-b42c-b16a7cf69ec9",
@@ -707,7 +739,7 @@
                 },
                 {
                     "identifier": "fc13fcf8-bdeb-4aeb-a1a3-4e65b8c96e87",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "bfe76edd-370b-49a9-8773-1310f5532517",
@@ -780,14 +812,21 @@
             ]
         }
     ],
+    "api_url_scale": "",
+    "show_external_models": true,
     "assistant_prefill": "",
     "assistant_impersonation": "",
     "claude_use_sysprompt": false,
     "use_makersuite_sysprompt": true,
+    "vertexai_auth_mode": "express",
+    "vertexai_region": "us-central1",
+    "vertexai_express_project_id": "",
+    "use_alt_scale": false,
     "squash_system_messages": false,
     "image_inlining": false,
     "inline_image_quality": "auto",
     "video_inlining": false,
+    "bypass_status_check": false,
     "continue_prefill": true,
     "continue_postfix": " ",
     "function_calling": false,
@@ -796,6 +835,5 @@
     "enable_web_search": false,
     "request_images": false,
     "seed": -1,
-    "n": 1,
-    "extensions": {}
+    "n": 1
 }
