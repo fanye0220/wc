@@ -156,15 +156,11 @@
         "AlertWI_霍利斯1.png": "true",
         "AlertRegex_霍利斯1.png": "true",
         "AlertWI_江洄·容克.png": "true",
-        "AlertRegex_江洄·容克.png": "true",
-        "AlertWI_王妃遗事录.png": "true",
-        "AlertRegex_王妃遗事录.png": "true",
-        "AlertWI_祁骁川.png": "true",
-        "AlertRegex_祁骁川.png": "true"
+        "AlertRegex_江洄·容克.png": "true"
     },
     "currentVersion": "1.13.1",
     "username": "律",
-    "active_character": "诶？我怎么成魅魔了？1.png",
+    "active_character": "江洄·容克.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "gui",
@@ -1245,9 +1241,7 @@
             "伊莱恩·罗兹.png",
             "佑安.png",
             "霍利斯1.png",
-            "江洄·容克.png",
-            "王妃遗事录.png",
-            "祁骁川.png"
+            "江洄·容克.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1527,9 +1521,7 @@
                 "characters_with_scripts": [
                     "沉睡的猫与作恶的狗.png",
                     "伊莱恩·罗兹.png",
-                    "江洄·容克.png",
-                    "王妃遗事录.png",
-                    "祁骁川.png"
+                    "江洄·容克.png"
                 ]
             },
             "audio": {
