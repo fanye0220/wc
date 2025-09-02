@@ -84,7 +84,7 @@
         "AlertWI_向未.png": "true",
         "mediaWarningShown:伊凡德.png": "true",
         "mediaWarningShown:伊凡德1.png": "true",
-        "extension_update_nag": "Tue Sep 02 2025",
+        "extension_update_nag": "Wed Sep 03 2025",
         "Proxy_SkipConfirm_5834304746370893": "true",
         "mediaWarningShown:《变形记》.png": "true",
         "AlertWI_《变形记》.png": "true",
@@ -148,11 +148,15 @@
         "AlertRegex_诶？我怎么成魅魔了？1.png": "true",
         "AlertWI_蓝川 鹿之助.png": "true",
         "AlertRegex_蓝川 鹿之助.png": "true",
-        "LNavLockOn": "false"
+        "LNavLockOn": "false",
+        "AlertWI_伊莱恩·罗兹.png": "true",
+        "AlertRegex_伊莱恩·罗兹.png": "true",
+        "AlertWI_佑安.png": "true",
+        "AlertRegex_佑安.png": "true"
     },
     "currentVersion": "1.13.1",
     "username": "律",
-    "active_character": "筱原冬弥.png",
+    "active_character": "佑安.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "gui",
@@ -373,7 +377,7 @@
         "sort_field": "create_date",
         "sort_order": "desc",
         "sort_rule": null,
-        "font_scale": 0.93,
+        "font_scale": 0.95,
         "blur_strength": 0,
         "shadow_width": 0,
         "main_text_color": "rgba(219, 219, 214, 1)",
@@ -1229,7 +1233,9 @@
             "守寡模拟器.png",
             "沉睡的猫与作恶的狗.png",
             "诶？我怎么成魅魔了？1.png",
-            "蓝川 鹿之助.png"
+            "蓝川 鹿之助.png",
+            "伊莱恩·罗兹.png",
+            "佑安.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1505,7 +1511,8 @@
                     }
                 ],
                 "characters_with_scripts": [
-                    "沉睡的猫与作恶的狗.png"
+                    "沉睡的猫与作恶的狗.png",
+                    "伊莱恩·罗兹.png"
                 ]
             },
             "audio": {
@@ -6070,7 +6077,7 @@
         "max_context_unlocked": true,
         "api_url_scale": "",
         "show_external_models": false,
-        "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
+        "proxy_password": "",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
