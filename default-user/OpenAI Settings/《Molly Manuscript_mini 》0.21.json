@@ -1,25 +1,32 @@
 {
-    "chat_completion_source": "openai",
-    "openai_model": "claude-3-7-sonnet-20250219",
+    "chat_completion_source": "custom",
+    "openai_model": "",
     "claude_model": "claude-3-5-sonnet-20240620",
     "windowai_model": "",
     "openrouter_model": "OR_Website",
     "openrouter_use_fallback": false,
-    "openrouter_force_instruct": false,
     "openrouter_group_models": false,
     "openrouter_sort_models": "alphabetically",
     "openrouter_providers": [],
     "openrouter_allow_fallbacks": true,
+    "openrouter_middleout": "on",
     "ai21_model": "jamba-1.5-large",
     "mistralai_model": "mistral-large-latest",
     "cohere_model": "command-r",
     "perplexity_model": "llama-3-70b-instruct",
     "groq_model": "llama3-70b-8192",
     "zerooneai_model": "yi-large",
-    "blockentropy_model": "be-70b-base-llama3.1",
-    "custom_model": "",
-    "custom_prompt_post_processing": "",
+    "xai_model": "grok-3-beta",
+    "pollinations_model": "openai",
+    "aimlapi_model": "gpt-4o-mini-2024-07-18",
+    "custom_model": "[paid-key]gemini-2.5-pro",
+    "custom_url": "https://ar26710.online/v1",
+    "custom_include_body": "",
+    "custom_exclude_body": "",
+    "custom_include_headers": "",
+    "custom_prompt_post_processing": "strict",
     "google_model": "gemini-2.5-pro-exp-03-25",
+    "vertexai_model": "gemini-2.0-flash-001",
     "temperature": 1,
     "frequency_penalty": 0,
     "presence_penalty": 0,
@@ -33,20 +40,20 @@
     "wrap_in_quotes": false,
     "names_behavior": 0,
     "send_if_empty": "",
-    "jailbreak_system": false,
     "impersonation_prompt": "[Write your next reply from the point of view of {{user}}, using the chat history so far as a guideline for the writing style of {{user}}. Don't write as {{char}} or system. Don't describe actions of {{char}}.]",
     "new_chat_prompt": "[Start a new Chat]",
     "new_group_chat_prompt": "[Start a new group chat. Group members: {{group}}]",
     "new_example_chat_prompt": "[Example Chat]",
     "continue_nudge_prompt": "[Continue the following message. Do not include ANY parts of the original message. Use capitalization and punctuation as if your reply is a part of the original message: {{lastChatMessage}}]",
     "bias_preset_selected": "Default (none)",
+    "reverse_proxy": "",
+    "proxy_password": "",
     "max_context_unlocked": true,
     "wi_format": "{0}",
     "scenario_format": "[Circumstances and context of the dialogue: {{scenario}}]",
     "personality_format": "[{{char}}'s personality: {{personality}}]",
     "group_nudge_prompt": "[Write the next reply only as {{char}}.]",
     "stream_openai": true,
-    "websearch_cohere": false,
     "prompts": [
         {
             "name": "┍⛓️核心预设定义✍️┑",
@@ -1147,7 +1154,7 @@
                 },
                 {
                     "identifier": "1b010be5-1697-44e1-a39d-c8ca56981330",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "793d71ec-f730-4a64-b617-90883cb3cffd",
@@ -1195,19 +1202,19 @@
                 },
                 {
                     "identifier": "0a2be567-2325-46e7-b472-b9011956ef4f",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "20fc55b9-1957-466a-b932-ef551646ac14",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "780ee413-afad-4555-bfdf-bdb24e61b454",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "ab565f08-f027-4e4f-a73d-7a91bb0b8c59",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "1cd0acab-fc7c-4aba-8c5b-98dea4b86281",
@@ -1223,11 +1230,11 @@
                 },
                 {
                     "identifier": "c2cf28bf-3961-4887-b4f0-06bf4f86dd02",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "240b1f06-2a35-4cc7-81f9-e49298268591",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "5e29d9af-51ef-4609-98f2-b346046f6d75",
@@ -1336,17 +1343,24 @@
     "show_external_models": true,
     "assistant_prefill": "",
     "assistant_impersonation": "",
-    "human_sysprompt_message": "Let's get started. Please generate your response based on the information and instructions provided above.",
     "claude_use_sysprompt": false,
     "use_makersuite_sysprompt": true,
+    "vertexai_auth_mode": "express",
+    "vertexai_region": "us-central1",
+    "vertexai_express_project_id": "",
     "use_alt_scale": false,
     "squash_system_messages": true,
     "image_inlining": false,
     "inline_image_quality": "low",
+    "video_inlining": false,
     "bypass_status_check": true,
     "continue_prefill": false,
     "continue_postfix": " ",
     "function_calling": true,
+    "show_thoughts": true,
+    "reasoning_effort": "high",
+    "enable_web_search": false,
+    "request_images": false,
     "seed": -1,
     "n": 1
 }
