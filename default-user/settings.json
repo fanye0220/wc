@@ -768,7 +768,7 @@
                     "start-reply-with": "",
                     "reasoning-template": "DeepSeek",
                     "prompt-post-processing": "strict",
-                    "secret-id": "cbf6fb0e-64de-4084-8095-b6808cad630e",
+                    "secret-id": "d7392b20-3aee-40f1-9cca-1ded90278380",
                     "name": "穹"
                 },
                 {
@@ -1463,12 +1463,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 978,
-                "LAST_RECEIVE_CHARS": 1430,
+                "LAST_RECEIVE_TOKENS": 227,
+                "LAST_RECEIVE_CHARS": 203,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 41954,
-                "LAST_SEND_CHARS": 69725
+                "LAST_SEND_TOKENS": 38448,
+                "LAST_SEND_CHARS": 60154
             }
         },
         "attachments": [],
@@ -7875,7 +7875,7 @@
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",
         "custom_model": "models/gemini-2.5-pro",
-        "custom_url": "https://gemini.beijixingxing.cn/v1",
+        "custom_url": "https://spw.cool/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
