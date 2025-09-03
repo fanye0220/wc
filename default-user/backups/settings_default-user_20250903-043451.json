@@ -1445,12 +1445,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 767,
-                "LAST_RECEIVE_CHARS": 1154,
+                "LAST_RECEIVE_TOKENS": 783,
+                "LAST_RECEIVE_CHARS": 1062,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 37357,
-                "LAST_SEND_CHARS": 58467
+                "LAST_SEND_TOKENS": 36822,
+                "LAST_SEND_CHARS": 57403
             }
         },
         "attachments": [],
