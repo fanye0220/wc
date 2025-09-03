@@ -1446,12 +1446,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 945,
-                "LAST_RECEIVE_CHARS": 1322,
+                "LAST_RECEIVE_TOKENS": 1001,
+                "LAST_RECEIVE_CHARS": 1429,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 37354,
-                "LAST_SEND_CHARS": 58469
+                "LAST_SEND_TOKENS": 37925,
+                "LAST_SEND_CHARS": 59427
             }
         },
         "attachments": [],
@@ -6123,7 +6123,7 @@
         "max_context_unlocked": true,
         "api_url_scale": "",
         "show_external_models": false,
-        "proxy_password": "",
+        "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
