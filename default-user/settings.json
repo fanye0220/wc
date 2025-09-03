@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "LNavOpened": "false",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
@@ -718,7 +718,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "9cf0d2e4-533a-4c5c-ab0f-e82ac25f0e04",
+            "selectedProfile": "19eb973e-fea5-46df-bbee-37dff1d8e7fe",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -738,13 +738,13 @@
                     "name": "北极星"
                 },
                 {
-                    "id": "9cf0d2e4-533a-4c5c-ab0f-e82ac25f0e04",
+                    "id": "efd6c5b1-054e-473b-a77a-f71d6f3bd81f",
                     "mode": "cc",
                     "exclude": [
-                        "api-url"
+                        "preset"
                     ],
                     "api": "custom",
-                    "preset": "【小图书馆】2.1重制版",
+                    "api-url": "https://api.k3scat.com/api/gemini",
                     "model": "models/gemini-2.5-pro",
                     "proxy": "None",
                     "stop-strings": "[]",
@@ -770,6 +770,23 @@
                     "prompt-post-processing": "strict",
                     "secret-id": "d7392b20-3aee-40f1-9cca-1ded90278380",
                     "name": "穹"
+                },
+                {
+                    "id": "69a546d1-1d37-4813-8690-f0bab705f793",
+                    "mode": "cc",
+                    "exclude": [
+                        "preset"
+                    ],
+                    "api": "custom",
+                    "api-url": "https://jimihub.52099966.xyz/v1",
+                    "model": "gemini-2.5-pro",
+                    "proxy": "None",
+                    "stop-strings": "[]",
+                    "start-reply-with": "",
+                    "reasoning-template": "DeepSeek",
+                    "prompt-post-processing": "strict",
+                    "secret-id": "2bfe4ecf-ee4e-4ca5-b3f6-ea8983458b71",
+                    "name": "有啥用啥"
                 },
                 {
                     "id": "7f526c67-0442-43b2-a2f4-95dac3ae8c9d",
@@ -1463,12 +1480,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 227,
-                "LAST_RECEIVE_CHARS": 203,
+                "LAST_RECEIVE_TOKENS": 3,
+                "LAST_RECEIVE_CHARS": 9,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 38448,
-                "LAST_SEND_CHARS": 60154
+                "LAST_SEND_TOKENS": 41991,
+                "LAST_SEND_CHARS": 69782
             }
         },
         "attachments": [],
@@ -7874,8 +7891,8 @@
         "aimlapi_model": "gpt-4o-mini-2024-07-18",
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",
-        "custom_model": "models/gemini-2.5-pro",
-        "custom_url": "https://spw.cool/v1",
+        "custom_model": "[c]claude-sonnet-4",
+        "custom_url": "https://ar26710.online/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
