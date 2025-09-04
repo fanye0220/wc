@@ -718,7 +718,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "4d5aad12-3aee-4fd0-b229-4178d22667cb",
+            "selectedProfile": "efd6c5b1-054e-473b-a77a-f71d6f3bd81f",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -4651,8 +4651,8 @@
         "aimlapi_model": "gpt-4o-mini-2024-07-18",
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",
-        "custom_model": "[paid-key]gemini-2.5-pro",
-        "custom_url": "https://ar26710.online/v1",
+        "custom_model": "models/gemini-2.5-pro",
+        "custom_url": "https://api.k3scat.com/api/gemini",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
