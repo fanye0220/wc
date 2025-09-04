@@ -718,7 +718,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "cd9588e9-f9ea-470a-bef1-99de04081912",
+            "selectedProfile": "69a546d1-1d37-4813-8690-f0bab705f793",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -1480,12 +1480,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2279,
-                "LAST_RECEIVE_CHARS": 3304,
+                "LAST_RECEIVE_TOKENS": 63,
+                "LAST_RECEIVE_CHARS": 88,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 87731,
-                "LAST_SEND_CHARS": 131866
+                "LAST_SEND_TOKENS": 85496,
+                "LAST_SEND_CHARS": 128625
             }
         },
         "attachments": [],
@@ -4109,7 +4109,7 @@
         "personality_format": "{{personality}}",
         "openai_model": "",
         "claude_model": "claude-3-opus-20240229",
-        "google_model": "kingfall-ab-test",
+        "google_model": "gemini-2.5-pro",
         "vertexai_model": "gemini-2.0-flash-001",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-medium",
@@ -4122,8 +4122,8 @@
         "aimlapi_model": "gpt-4o-mini-2024-07-18",
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",
-        "custom_model": "gemini-2.5-pro[假流]",
-        "custom_url": "https://gemini.beijixingxing.cn/v1",
+        "custom_model": "gemini-2.5-pro",
+        "custom_url": "https://jimihub.52099966.xyz/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
