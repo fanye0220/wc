@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
@@ -4960,7 +4960,7 @@
                     },
                     {
                         "identifier": "4d8e27c2-8798-4d17-adc1-1200dc662f9e",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "1f550996-712c-46f6-ac45-4b3d9ed9c1cb",
@@ -5068,7 +5068,7 @@
         "openrouter_allow_fallbacks": false,
         "openrouter_middleout": "on",
         "reverse_proxy": "",
-        "chat_completion_source": "custom",
+        "chat_completion_source": "deepseek",
         "max_context_unlocked": true,
         "api_url_scale": "",
         "show_external_models": true,

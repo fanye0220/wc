@@ -4960,7 +4960,7 @@
                     },
                     {
                         "identifier": "4d8e27c2-8798-4d17-adc1-1200dc662f9e",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "1f550996-712c-46f6-ac45-4b3d9ed9c1cb",
@@ -5048,7 +5048,7 @@
         "groq_model": "llama3-70b-8192",
         "nanogpt_model": "gpt-4o-mini",
         "zerooneai_model": "yi-large",
-        "deepseek_model": "deepseek-chat",
+        "deepseek_model": "deepseek-reasoner",
         "aimlapi_model": "gpt-4o-mini-2024-07-18",
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",

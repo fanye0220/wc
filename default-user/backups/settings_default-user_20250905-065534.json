@@ -568,14 +568,14 @@
                 "connections": []
             },
             "1748691468583-.png": {
-                "description": "183身高 男的 长相偏阴柔，头发瞳孔都是栗色 身上常年都是消毒酒精的味道",
+                "description": "183身高 男的 长相偏阴柔，头发瞳孔都是栗色",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
                 "lorebook": ""
             }
         },
-        "persona_description": "183身高 男的 长相偏阴柔，头发瞳孔都是栗色 身上常年都是消毒酒精的味道",
+        "persona_description": "183身高 男的 长相偏阴柔，头发瞳孔都是栗色",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -718,7 +718,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "cd9588e9-f9ea-470a-bef1-99de04081912",
+            "selectedProfile": "69a546d1-1d37-4813-8690-f0bab705f793",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -4960,7 +4960,7 @@
                     },
                     {
                         "identifier": "4d8e27c2-8798-4d17-adc1-1200dc662f9e",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "1f550996-712c-46f6-ac45-4b3d9ed9c1cb",
@@ -5048,12 +5048,12 @@
         "groq_model": "llama3-70b-8192",
         "nanogpt_model": "gpt-4o-mini",
         "zerooneai_model": "yi-large",
-        "deepseek_model": "deepseek-chat",
+        "deepseek_model": "deepseek-reasoner",
         "aimlapi_model": "gpt-4o-mini-2024-07-18",
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",
-        "custom_model": "DeepSeek-V3.1[星星]",
-        "custom_url": "https://gemini.beijixingxing.cn/v1",
+        "custom_model": "deepseek/deepseek-v3-0324",
+        "custom_url": "https://api.novita.ai/v3/openai",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
