@@ -1480,12 +1480,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2176,
-                "LAST_RECEIVE_CHARS": 3088,
+                "LAST_RECEIVE_TOKENS": 2139,
+                "LAST_RECEIVE_CHARS": 2913,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 85496,
-                "LAST_SEND_CHARS": 128625
+                "LAST_SEND_TOKENS": 83246,
+                "LAST_SEND_CHARS": 125499
             }
         },
         "attachments": [],
