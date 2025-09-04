@@ -170,12 +170,12 @@
         "AlertRegex_江晦2.png": "true"
     },
     "currentVersion": "1.13.1",
-    "username": "律",
+    "username": "茂卯",
     "active_character": "筱原冬弥.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "gui",
-    "user_avatar": "1748691468583-.png",
+    "user_avatar": "1746509319576-.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -568,14 +568,14 @@
                 "connections": []
             },
             "1748691468583-.png": {
-                "description": "183身高 男的 长相pian",
+                "description": "183身高 男的",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
                 "lorebook": ""
             }
         },
-        "persona_description": "183身高 男的 长相pian",
+        "persona_description": "台湾人，女的，身高171",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -4140,7 +4140,7 @@
         "max_context_unlocked": true,
         "api_url_scale": "",
         "show_external_models": true,
-        "proxy_password": "sk-oFCYg2XRiUH1D7sLMVM0SwnH3I7k7UVcUADsqXSSSxhvdCPA",
+        "proxy_password": "",
         "assistant_prefill": "",
         "assistant_impersonation": "",
         "claude_use_sysprompt": false,
