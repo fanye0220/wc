@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "NavOpened": "false",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
@@ -171,7 +171,7 @@
     },
     "currentVersion": "1.13.1",
     "username": "律",
-    "active_character": null,
+    "active_character": "筱原冬弥.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "gui",
@@ -718,7 +718,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "efd6c5b1-054e-473b-a77a-f71d6f3bd81f",
+            "selectedProfile": "69a546d1-1d37-4813-8690-f0bab705f793",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -1480,12 +1480,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2433,
-                "LAST_RECEIVE_CHARS": 3417,
+                "LAST_RECEIVE_TOKENS": 2284,
+                "LAST_RECEIVE_CHARS": 3218,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 96893,
-                "LAST_SEND_CHARS": 145054
+                "LAST_SEND_TOKENS": 52272,
+                "LAST_SEND_CHARS": 78992
             }
         },
         "attachments": [],
@@ -3893,19 +3893,6 @@
                 "injection_depth": 4,
                 "injection_order": 100,
                 "injection_trigger": [],
-                "forbid_overrides": false
-            },
-            {
-                "identifier": "a5f2d25e-8485-42b3-bfac-421794367c79",
-                "system_prompt": false,
-                "enabled": false,
-                "marker": false,
-                "name": "时间",
-                "role": "system",
-                "content": "- 当前的具体日期与时间（YYYY-MM-DD HH:mm）是什么？是否与上轮时间线连续、无跳跃？\n- 当下属于什么季节？气温是怎样的？当前时间与地点应有的状态（天色/光线/人流/气温/噪音）是什么？角色的行为是否符合这种状态？\n- 上文中角色与{{user}}的服饰状态是什么？是否与本轮背景匹配？若不符，应如何自然修正？（若无说明，女性角色服饰必须基于天气、用途、场合自动推断详细穿搭，且需要根据推进来选择是否更换衣物，如睡醒之后应穿睡衣。出于卫生，所有角色的衣服都不应和昨天重复。）\n- 若本轮时间未明示，应结合背景主动推断并补全，并标注推断逻辑。该推断是否能确保回忆与主线时间自洽、无模糊或遗漏？\n- 角色与{{user}}的互动是否符合正常人类的时间感？若处于深夜、凌晨、清晨等非常规时段，是否在对话或行动中体现出疲倦、困意、安静等符合生理与社会习惯的状态？\n- 结合当前的关系阶段（低/中/高好感），此时间点的行为、对话、肢体接触是否自然且合宜？是否需要调整方式或内容以匹配双方关系与时间背景？",
-                "injection_position": 0,
-                "injection_depth": 4,
-                "injection_order": 100,
                 "forbid_overrides": false
             }
         ],
