@@ -718,7 +718,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "efd6c5b1-054e-473b-a77a-f71d6f3bd81f",
+            "selectedProfile": "cd9588e9-f9ea-470a-bef1-99de04081912",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -1480,12 +1480,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 47,
-                "LAST_RECEIVE_CHARS": 66,
+                "LAST_RECEIVE_TOKENS": 1929,
+                "LAST_RECEIVE_CHARS": 2650,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 51004,
-                "LAST_SEND_CHARS": 78881
+                "LAST_SEND_TOKENS": 78863,
+                "LAST_SEND_CHARS": 119306
             }
         },
         "attachments": [],
@@ -4122,8 +4122,8 @@
         "aimlapi_model": "gpt-4o-mini-2024-07-18",
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",
-        "custom_model": "models/gemini-2.5-pro",
-        "custom_url": "https://api.k3scat.com/api/gemini",
+        "custom_model": "gemini-2.5-pro[假流]",
+        "custom_url": "https://gemini.beijixingxing.cn/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
