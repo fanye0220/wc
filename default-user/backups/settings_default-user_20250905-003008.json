@@ -718,7 +718,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "0206e91f-e509-4bed-be2a-6e5a33861e50",
+            "selectedProfile": "4d5aad12-3aee-4fd0-b229-4178d22667cb",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -755,7 +755,7 @@
                     "name": "猫"
                 },
                 {
-                    "id": "0206e91f-e509-4bed-be2a-6e5a33861e50",
+                    "id": "4d5aad12-3aee-4fd0-b229-4178d22667cb",
                     "mode": "cc",
                     "exclude": [
                         "preset"
@@ -768,7 +768,7 @@
                     "start-reply-with": "",
                     "reasoning-template": "DeepSeek",
                     "prompt-post-processing": "strict",
-                    "secret-id": "7f6efab6-b94b-4b59-85fd-dae4da58605d",
+                    "secret-id": "2c846c69-6bb2-4c57-931a-2b714d3d4b6a",
                     "name": "穹"
                 },
                 {
