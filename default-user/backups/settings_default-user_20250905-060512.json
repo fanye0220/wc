@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "true",
+        "LNavOpened": "false",
         "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
@@ -718,7 +718,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "69a546d1-1d37-4813-8690-f0bab705f793",
+            "selectedProfile": "0206e91f-e509-4bed-be2a-6e5a33861e50",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -6139,8 +6139,8 @@
         "aimlapi_model": "gpt-4o-mini-2024-07-18",
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",
-        "custom_model": "gemini-2.5-pro",
-        "custom_url": "https://jimihub.52099966.xyz/v1",
+        "custom_model": "[paid-key]gemini-2.5-pro",
+        "custom_url": "https://ar26710.online/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
