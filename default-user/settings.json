@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
@@ -718,7 +718,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "efd6c5b1-054e-473b-a77a-f71d6f3bd81f",
+            "selectedProfile": "cd9588e9-f9ea-470a-bef1-99de04081912",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -4122,8 +4122,8 @@
         "aimlapi_model": "gpt-4o-mini-2024-07-18",
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",
-        "custom_model": "models/gemini-2.5-pro",
-        "custom_url": "https://api.k3scat.com/api/gemini",
+        "custom_model": "gemini-2.5-pro[假流]",
+        "custom_url": "https://gemini.beijixingxing.cn/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",

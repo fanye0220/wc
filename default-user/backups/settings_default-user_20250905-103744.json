@@ -2,8 +2,8 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "LNavOpened": "false",
-        "NavOpened": "false",
+        "LNavOpened": "true",
+        "NavOpened": "true",
         "WINavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "SelectedNavTab": "rm_button_characters",
@@ -84,7 +84,7 @@
         "AlertWI_向未.png": "true",
         "mediaWarningShown:伊凡德.png": "true",
         "mediaWarningShown:伊凡德1.png": "true",
-        "extension_update_nag": "Thu Sep 04 2025",
+        "extension_update_nag": "Fri Sep 05 2025",
         "Proxy_SkipConfirm_5834304746370893": "true",
         "mediaWarningShown:《变形记》.png": "true",
         "AlertWI_《变形记》.png": "true",
@@ -568,14 +568,14 @@
                 "connections": []
             },
             "1748691468583-.png": {
-                "description": "183身高 男的",
+                "description": "183身高 男的 长相偏阴柔，头发瞳孔都是栗色 身上常年都是消毒酒精的味道",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
                 "lorebook": ""
             }
         },
-        "persona_description": "183身高 男的",
+        "persona_description": "183身高 男的 长相偏阴柔，头发瞳孔都是栗色 身上常年都是消毒酒精的味道",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -718,7 +718,7 @@
             "promptType": "raw"
         },
         "connectionManager": {
-            "selectedProfile": "efd6c5b1-054e-473b-a77a-f71d6f3bd81f",
+            "selectedProfile": "cd9588e9-f9ea-470a-bef1-99de04081912",
             "profiles": [
                 {
                     "id": "cd9588e9-f9ea-470a-bef1-99de04081912",
@@ -755,7 +755,7 @@
                     "name": "猫"
                 },
                 {
-                    "id": "4d5aad12-3aee-4fd0-b229-4178d22667cb",
+                    "id": "0206e91f-e509-4bed-be2a-6e5a33861e50",
                     "mode": "cc",
                     "exclude": [
                         "preset"
@@ -768,7 +768,7 @@
                     "start-reply-with": "",
                     "reasoning-template": "DeepSeek",
                     "prompt-post-processing": "strict",
-                    "secret-id": "2c846c69-6bb2-4c57-931a-2b714d3d4b6a",
+                    "secret-id": "7f6efab6-b94b-4b59-85fd-dae4da58605d",
                     "name": "穹"
                 },
                 {
@@ -1480,12 +1480,12 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2214,
-                "LAST_RECEIVE_CHARS": 3205,
+                "LAST_RECEIVE_TOKENS": 3527,
+                "LAST_RECEIVE_CHARS": 2840,
                 "musicPlayerCurrentTrack_v7": "0",
                 "musicPlayerPosition_v7": "0",
-                "LAST_SEND_TOKENS": 87731,
-                "LAST_SEND_CHARS": 131866
+                "LAST_SEND_TOKENS": 43093,
+                "LAST_SEND_CHARS": 44648
             }
         },
         "attachments": [],
@@ -1615,7 +1615,7 @@
                     "gemini-2.5-pro-preview-06-05"
                 ]
             },
-            "openai_model": "[云愿]claude-3-7-sonnet",
+            "openai_model": "[AWS]claude_3_7_sonnet",
             "google_model": "kingfall-ab-test"
         },
         "codex": true,
@@ -3312,7 +3312,7 @@
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
         "stream_openai": false,
-        "openai_max_context": 777888,
+        "openai_max_context": 640000,
         "openai_max_tokens": 65535,
         "wrap_in_quotes": false,
         "prompts": [
@@ -3954,7 +3954,7 @@
                     },
                     {
                         "identifier": "9f6fb39c-5373-47a0-a3d9-dc6fcbbe83de",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "d6fa9105-b1ec-4079-a3be-a608388a4812",
@@ -4107,13 +4107,13 @@
         "group_nudge_prompt": "[Write the next reply only as {{char}}.]",
         "scenario_format": "{{scenario}}",
         "personality_format": "{{personality}}",
-        "openai_model": "",
-        "claude_model": "claude-3-opus-20240229",
+        "openai_model": "[AWS]claude_3_7_sonnet",
+        "claude_model": "claude-3-7-sonnet-20250219",
         "google_model": "kingfall-ab-test",
         "vertexai_model": "gemini-2.0-flash-001",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-medium",
-        "cohere_model": "command-r-plus",
+        "cohere_model": "command-r",
         "perplexity_model": "llama-3-70b-instruct",
         "groq_model": "llama3-70b-8192",
         "nanogpt_model": "gpt-4o-mini",
@@ -4122,20 +4122,18 @@
         "aimlapi_model": "gpt-4o-mini-2024-07-18",
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",
-        "custom_model": "models/gemini-2.5-pro",
-        "custom_url": "https://api.k3scat.com/api/gemini",
+        "custom_model": "gemini-2.5-pro[假流]",
+        "custom_url": "https://gemini.beijixingxing.cn/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
         "windowai_model": "",
-        "openrouter_model": "deepseek/deepseek-r1-0528",
+        "openrouter_model": "OR_Website",
         "openrouter_use_fallback": false,
         "openrouter_group_models": false,
         "openrouter_sort_models": "alphabetically",
-        "openrouter_providers": [
-            "Chutes"
-        ],
-        "openrouter_allow_fallbacks": false,
+        "openrouter_providers": [],
+        "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
         "reverse_proxy": "",
         "chat_completion_source": "custom",
@@ -4155,7 +4153,7 @@
         "image_inlining": false,
         "inline_image_quality": "auto",
         "video_inlining": false,
-        "bypass_status_check": false,
+        "bypass_status_check": true,
         "continue_prefill": true,
         "function_calling": false,
         "names_behavior": 0,
@@ -4170,8 +4168,8 @@
         "bind_preset_to_connection": true
     },
     "background": {
-        "name": "1000028052.jpg",
-        "url": "url(\"backgrounds/1000028052.jpg\")",
+        "name": "Camera_XHS_17569123805861040g2sg31gda67043ue05p2t.jpg",
+        "url": "url(\"backgrounds/Camera_XHS_17569123805861040g2sg31gda67043ue05p2t.jpg\")",
         "fitting": "classic",
         "animation": false
     },
